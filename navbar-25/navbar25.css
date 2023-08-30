@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    body{
+        background-color: #595959;
+    }
+.navbar{
+    
+    display: flex; 
+    margin: 80px 80px;
+    padding: 16px 10px;
+    width: 100% ;
+    height: 110px ;
+    background: linear-gradient(90deg, #eecec8 18%, white 2%);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.navbar .logo {
+    display: inline-block;
+    background-color:#eecec8 ;
+    width: 220px;
+ }
+
+ .navbar .menu-list-1 {
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+    width: 1100px;
+    height: 70px;
+ }
+ .navbar .menu-list-1 li {
+    display:inline-block;
+    list-style: none;
+    margin-right: 50px;
+    line-height: 72px;
+}
+.navbar .menu-list-1 li>a {
+    font-family: 'Almarai', sans-serif;
+   color: #000000 ;
+   font-size : 14px;
+   text-decoration : none;
+ }
+ .active-one {
+        border-bottom-style: solid;
+        padding-bottom: 20px;
+ }
+    .menu-list-2{
+        position: absolute;
+        display: flex;
+        justify-content: end;
+        width: 1100px;
+        height: 70px;
+    }
+    .navbar .menu-list-2 li {
+        display:inline-block;
+        list-style: none;
+        margin-right: 50px;
+        line-height: 72px;
+    }
+
+    .navbar .menu-list-2 li>a {
+        font-family: 'Almarai', sans-serif;
+       color: #000000 ;
+       font-size : 14px;
+       text-decoration : none;
+     }
+     .menu-list-3 {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        width: 1100px;
+        height: 70px;
+        align-items: center;
+    }
+    
+    .navbar .menu-list-3 li {
+        display: inline-block;
+        list-style: none;
+        margin-right: 30px;
+        line-height: 60px;
+    }
+    
+    .navbar .menu-list-3 li>a {
+        font-family: 'Almarai', sans-serif;
+        color: #000000;
+        font-size: 18px;
+        text-decoration: none;
+    }
